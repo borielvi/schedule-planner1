@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+
+    <div class="container">
+      
+      <!-- Timeblocks go here -->
+      <main class="d-flex flex-column">
+        <div class="row justify-content-around">
+
+
+          <div class="col-1">
+            <h6 class="timeDay">
+              9am
+            </h6>
+          </div>
+          <div class="col-9">
+            <textarea class="textIn" id="9">
+            </textarea>
+          </div>
+          <div class="col-2">
+            <button type="button" class="button text-light" id="saveBtn9">
+              <span class="oi oi-lock-locked align-items-center"></span>
+            </button>
+          </div>
+
+
+          <div class="col-1">
+            <h6 class="timeDay">
+              10am
+            </h6>
+          </div>
+          <div class="col-9">
+            <textarea class="textIn" id="10">
+            </textarea>
+          </div>
+          <div class="col-2">
+            <button type="button" class="button text-light" id="saveBtn10">
+              <span class="oi oi-lock-locked align-items-center"></span>
+            </button>
+          </div>
+
+
+          <div class="col-1">
+            <h6 class="timeDay">
+              11am
+            </h6>
+          </div>
+          <div class="col-9">
+            <textarea class="textIn" id="11">
+            </textarea>
+          </div>
+          <div class="col-2">
+            <button type="button" class="button text-light" id="saveBtn11">
+              <span class="oi oi-lock-locked align-items-center"></span>
+            </button>
+          </div>
+
+
+          <div class="col-1">
+            <h6 class="timeDay">
+              12pm
+            </h6>
+          </div>
+          <div class="col-9">
+            <textarea class="textIn" id="12">
+            </textarea>
+          </div>
+          <div class="col-2">
+            <button type="button" class="button text-light" id="saveBtn12">
+              <span class="oi oi-lock-locked align-items-center"></span>
+            </button>
+          </div>
+
+
+          <div class="col-1">
+            <h6 class="timeDay">
+              1pm
+            </h6>
+          </div>
+          <div class="col-9">
+            <textarea class="textIn" id="13">
+            </textarea>
+          </div>
+          <div class="col-2">
+            <button type="button" class="button text-light" id="saveBtn13">
+              <span class="oi oi-lock-locked align-items-center"></span>
+            </button>
+          </div>
+            
+
+          <div class="col-1">
+            <h6 class="timeDay">
+              2pm
+            </h6>
+          </div>
+          <div class="col-9">
+            <textarea class="textIn" id="14">
+            </textarea>
+          </div>
+          <div class="col-2">
+            <button type="button" class="button text-light" id="saveBtn14">
+              <span class="oi oi-lock-locked align-items-center"></span>
+            </button>
+          </div>
+
+
+          <div class="col-1">
+            <h6 class="timeDay">
+              3pm
+            </h6>
+          </div>
+          <div class="col-9">
+            <textarea class="textIn" id="15">
+            </textarea>
+          </div>
+          <div class="col-2">
+            <button type="button" class="button text-light" id="saveBtn15">
+              <span class="oi oi-lock-locked align-items-center"></span>
+            </button>
+          </div>
+
+
+          <div class="col-1">
+            <h6 class="timeDay">
+              4pm
+            </h6>
+          </div>
+          <div class="col-9">
+            <textarea class="textIn" id="16">
+            </textarea>
+          </div>
+          <div class="col-2">
+            <button type="button" class="button text-light" id="saveBtn16">
+              <span class="oi oi-lock-locked align-items-center"></span>
+            </button>
+          </div>
+
+
+          <div class="col-1">
+            <h6 class="timeDay">
+              5pm
+            </h6>
+          </div>
+          <div class="col-9">
+            <textarea class="textIn" id="17">
+            </textarea>
+          </div>
+          <div class="col-2">
+            <button type="button" class="button text-light" id="saveBtn17">
+              <span class="oi oi-lock-locked align-items-center"></span>
+            </button>
+          </div>
+
+
+        </div>
+      </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
